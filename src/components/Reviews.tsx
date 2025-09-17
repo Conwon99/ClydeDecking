@@ -27,8 +27,8 @@ const Reviews = () => {
       name: "David Wilson",
       location: "Dundee",
       rating: 5,
-      text: "Fantastic service! They built our custom garden shed and the joinery work is exceptional. Very professional and delivered exactly what we wanted. Will definitely use again for future projects.",
-      service: "Garden Joinery"
+      text: "Fantastic service! They built our custom decking and the work is exceptional. Very professional and delivered exactly what we wanted. Will definitely use again for future projects.",
+      service: "Decking Installation"
     }
   ];
 

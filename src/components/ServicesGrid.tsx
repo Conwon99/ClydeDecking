@@ -42,9 +42,9 @@ const ServicesGrid = () => {
       color: "primary-blue"
     },
     {
-      title: "Garden Joinery Work",
-      description: "Custom joinery solutions for outdoor structures",
-      features: ["Garden sheds", "Gates", "Pergolas", "Custom structures"],
+      title: "Custom Outdoor Structures",
+      description: "Bespoke outdoor structures and joinery solutions",
+      features: ["Pergolas", "Gates", "Outdoor storage", "Custom structures"],
       image: "/gallery/imgi_6_gallery 4.jpg",
       fallbackImage: "/gallery/imgi_6_gallery 4.jpg",
       icon: Settings,
@@ -68,7 +68,7 @@ const ServicesGrid = () => {
             <div className="flex-1 h-px bg-[hsl(var(--asphalt-grey))]"></div>
           </div>
           <p className="text-xl text-[hsl(var(--asphalt-grey))] max-w-3xl">
-            Expert decking and fencing solutions with skilled joiners specializing in composite and wooden decking, fencing installation, repairs, and custom garden joinery work. Every project completed to the highest standards.
+            Expert decking and fencing solutions with skilled contractors specializing in composite and wooden decking, fencing installation, repairs, and custom outdoor structures. Every project completed to the highest standards.
           </p>
         </div>
 

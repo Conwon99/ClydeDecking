@@ -64,7 +64,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#services" className="hover:text-blue-400 transition-colors">
-                  • Garden Joinery Work
+                  • Custom Outdoor Structures
                 </a>
               </li>
               <li>
@@ -93,7 +93,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#about" className="hover:text-blue-400 transition-colors">
-                  • Garden Joinery Scotland
+                  • Custom Structures Scotland
                 </a>
               </li>
               <li>

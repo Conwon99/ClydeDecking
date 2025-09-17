@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Award, Users, Clock, Home, Facebook, Truck } from "lucide-react";
 import LazyImage from "@/components/LazyImage";
 import WhatsAppIcon from "@/components/WhatsAppIcon";
+import { trackMessenger } from "@/utils/analytics";
 
 const AboutUs = () => {
   return (
@@ -34,6 +35,7 @@ const AboutUs = () => {
                   href="https://wa.me/447495295903" 
                   target="_blank" 
                   rel="noopener noreferrer"
+                  onClick={() => trackMessenger('about_section')}
                   className="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-primary/10 transition-colors"
                 >
                   <WhatsAppIcon className="w-5 h-5" color="black" />

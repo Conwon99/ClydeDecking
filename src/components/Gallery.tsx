@@ -7,57 +7,39 @@ const Gallery = () => {
   const galleryImages = [
     {
       src: "/gallery/deck1.jpg",
-      alt: "Professional decking installation - composite decking project",
-      title: "Composite Decking",
-      location: "Scotland"
+      alt: "Professional decking installation - composite decking project"
     },
     {
       src: "/gallery/deck2.jpg",
-      alt: "High-quality wooden decking installation",
-      title: "Wooden Decking",
-      location: "Scotland"
+      alt: "High-quality wooden decking installation"
     },
     {
       src: "/gallery/deck3.jpg",
-      alt: "Custom decking design with modern finish",
-      title: "Custom Decking",
-      location: "Scotland"
+      alt: "Custom decking design with modern finish"
     },
     {
       src: "/gallery/Fence1.jpg",
-      alt: "Professional fencing installation work",
-      title: "Fencing Project",
-      location: "Scotland"
+      alt: "Professional fencing installation work"
     },
     {
       src: "/gallery/imgi_4_gallery 7.jpg",
-      alt: "Professional decking installation project",
-      title: "Decking Project",
-      location: "Scotland"
+      alt: "Professional decking installation project"
     },
     {
       src: "/gallery/imgi_5_gallery 6.jpg", 
-      alt: "Expert fencing installation work",
-      title: "Fencing Project",
-      location: "Scotland"
+      alt: "Expert fencing installation work"
     },
     {
       src: "/gallery/imgi_6_gallery 4.jpg",
-      alt: "Custom decking and outdoor structure",
-      title: "Outdoor Structure", 
-      location: "Scotland"
+      alt: "Custom decking and outdoor structure"
     },
     {
       src: "/gallery/imgi_7_gallery 2.jpg",
-      alt: "Professional decking installation",
-      title: "Decking Installation",
-      location: "Scotland"
+      alt: "Professional decking installation"
     },
     {
       src: "/gallery/imgi_8_gallery 3.jpg",
-      alt: "High-quality decking and fencing work",
-      title: "Complete Project",
-      location: "Scotland"
+      alt: "High-quality decking and fencing work"
     }
   ];
 
@@ -110,10 +92,6 @@ const Gallery = () => {
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
-                <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="font-semibold text-lg">{image.title}</h3>
-                  <p className="text-sm text-white/80">{image.location}</p>
-                </div>
               </div>
             </div>
           ))}
@@ -162,10 +140,6 @@ const Gallery = () => {
                 alt={galleryImages[selectedImage].alt}
                 className="max-w-full max-h-full object-contain rounded-lg"
               />
-              <div className="text-center mt-4 text-white">
-                <h3 className="font-semibold text-xl">{galleryImages[selectedImage].title}</h3>
-                <p className="text-white/80">{galleryImages[selectedImage].location}</p>
-              </div>
             </div>
           </div>
         )}

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import { trackPhoneCall } from "@/utils/analytics";
 import { Helmet } from "react-helmet-async";
 
 const FAQ = () => {
@@ -28,11 +29,11 @@ const FAQ = () => {
     },
     {
       question: "Do you offer fencing installation and repairs?",
-      answer: "Yes, we provide comprehensive fencing services including new installations, repairs, and maintenance. We work with various fencing materials and can handle everything from privacy fences to decorative garden fencing. All work is completed to the highest standards by our expert joiners."
+      answer: "Yes, we provide comprehensive fencing services including new installations, repairs, and maintenance. We work with various fencing materials and can handle everything from privacy fences to decorative fencing. All work is completed to the highest standards by our expert contractors."
     },
     {
-      question: "What types of garden joinery work do you do?",
-      answer: "We offer a wide range of garden joinery services including garden sheds, gates, pergolas, outdoor storage, and custom outdoor structures. Our skilled joiners can create bespoke solutions tailored to your specific needs and garden design."
+      question: "What types of custom outdoor structures do you build?",
+      answer: "We offer a wide range of custom outdoor structures including pergolas, outdoor storage, gates, and bespoke decking solutions. Our skilled contractors can create custom solutions tailored to your specific needs and outdoor design."
     },
     {
       question: "How long does a typical decking project take?",
@@ -72,7 +73,7 @@ const FAQ = () => {
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-[hsl(var(--asphalt-grey))] max-w-3xl mx-auto">
-              Common questions about our decking, fencing, and garden joinery services across Scotland
+              Common questions about our decking, fencing, and custom outdoor structure services across Scotland
             </p>
           </div>
 
@@ -111,6 +112,7 @@ const FAQ = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+447495295903"
+                onClick={() => trackPhoneCall('faq_section')}
                 className="inline-flex items-center justify-center px-6 py-3 bg-[hsl(var(--primary-blue))] text-white rounded-full font-semibold hover:bg-[hsl(var(--primary-blue))]/90 transition-colors"
               >
                 Call 07495 295903

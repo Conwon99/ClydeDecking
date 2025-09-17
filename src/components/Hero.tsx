@@ -24,7 +24,7 @@ const Hero = () => {
     'Wooden Decking', 
     'Fencing Installation',
     'Fence Repairs',
-    'Garden Joinery Work',
+    'Custom Outdoor Structures',
     'Outdoor Structures',
     'Decking Maintenance',
     'Custom Decking Solutions'
