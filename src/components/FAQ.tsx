@@ -25,7 +25,7 @@ const FAQ = () => {
     },
     {
       question: "What areas do you cover?",
-      answer: "We provide decking and fencing services across Scotland and surrounding areas, including Glasgow, Edinburgh, Aberdeen, Dundee, and other major cities. Contact us to confirm coverage for your specific location and discuss your project requirements."
+      answer: "We provide decking and fencing services across Scotland's Central Belt, including Glasgow, Edinburgh, Stirling, Ayrshire, and surrounding areas. Contact us to confirm coverage for your specific location and discuss your project requirements."
     },
     {
       question: "Do you offer fencing installation and repairs?",

@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { useEffect } from "react";
 import Index from "./pages/Index";
+import Glasgow from "./pages/Glasgow";
 import NotFound from "./pages/NotFound";
 import { trackPageView } from "./utils/analytics";
 
@@ -33,6 +34,7 @@ const App = () => (
           <PageTracker />
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/glasgow" element={<Glasgow />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

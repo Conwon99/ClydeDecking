@@ -6,14 +6,14 @@ const ServiceAreas = () => {
   const serviceAreas = [
     "Glasgow",
     "Edinburgh",
-    "Aberdeen",
-    "Dundee",
     "Stirling",
-    "Perth",
-    "Inverness",
+    "Falkirk",
+    "Livingston",
     "Ayr",
     "Kilmarnock",
-    "Paisley"
+    "Paisley",
+    "Hamilton",
+    "Cumbernauld"
   ];
 
   return (
@@ -27,7 +27,7 @@ const ServiceAreas = () => {
             <div className="flex-1 h-px bg-[hsl(var(--asphalt-grey))]"></div>
           </div>
           <p className="text-xl text-muted-foreground max-w-3xl">
-            We proudly serve Glasgow and surrounding areas with expert decking and fencing solutions. 
+            We proudly serve Glasgow, Edinburgh, Stirling, Ayrshire and Scotland's Central Belt with expert decking and fencing solutions. 
             Contact us to confirm coverage for your specific location.
           </p>
         </div>
@@ -50,10 +50,10 @@ const ServiceAreas = () => {
               </div>
               <div className="mt-4 text-center">
                 <h3 className="font-display font-bold text-xl text-primary mb-2">
-                  Glasgow Coverage Area
+                  Central Belt Coverage Area
                 </h3>
                 <p className="text-muted-foreground text-sm">
-                  Serving Glasgow and surrounding areas
+                  Serving Glasgow, Edinburgh, Stirling, Ayrshire & Central Belt
                 </p>
               </div>
             </div>

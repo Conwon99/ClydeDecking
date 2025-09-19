@@ -18,7 +18,7 @@ const AboutUs = () => {
               <div className="w-16 h-1 bg-primary"></div>
               
               <p className="text-lg text-white/90 leading-relaxed max-w-2xl">
-                We are a trusted provider of composite and wooden decking and fencing solutions. Our skilled joiners are experts in all aspects of joinery work, ensuring that every project is completed to the highest standards. When it comes to decking and fencing, we believe in combining functionality with aesthetics to create outdoor spaces that enhance the beauty of your property while providing long-lasting and durable solutions.
+                We are trusted decking contractors and fencing specialists serving Glasgow, Edinburgh, Stirling & Ayrshire. Our professional decking builders specialize in composite decking, wooden decking, and custom outdoor structures. Expert fencing installation and decking installation services across Scotland's Central Belt, delivering premium outdoor living solutions that enhance your property's beauty and value.
               </p>
               
               {/* Social Media Icons */}
@@ -27,9 +27,9 @@ const AboutUs = () => {
                   href="https://www.facebook.com/people/Clyde-Decking/100095203176792/?_rdr" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-primary/10 transition-colors"
+                  className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
                 >
-                  <Facebook className="w-6 h-6 text-[hsl(var(--asphalt-grey))]" />
+                  <Facebook className="w-6 h-6 text-white" />
                 </a>
                 <a 
                   href="https://wa.me/447495295903" 
@@ -52,7 +52,6 @@ const AboutUs = () => {
                   src="/cds - Edited.png"
                   alt="Clyde Decking Solutions Ltd logo"
                   className="w-80 h-80 object-contain brightness-0 invert"
-                  fallbackSrc="/cds - Edited.png"
                 />
               </div>
               <h3 className="font-display font-bold text-3xl text-white mb-2">

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, X, Facebook } from "lucide-react";
+import LazyImage from "@/components/LazyImage";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
@@ -7,39 +8,39 @@ const Gallery = () => {
   const galleryImages = [
     {
       src: "/gallery/deck1.jpg",
-      alt: "Professional decking installation - composite decking project"
+      alt: "Composite decking installation Glasgow - professional decking contractors"
     },
     {
       src: "/gallery/deck2.jpg",
-      alt: "High-quality wooden decking installation"
+      alt: "Wooden decking installation Scotland - expert decking services"
     },
     {
       src: "/gallery/deck3.jpg",
-      alt: "Custom decking design with modern finish"
+      alt: "Custom decking design Glasgow - modern outdoor living solutions"
     },
     {
       src: "/gallery/Fence1.jpg",
-      alt: "Professional fencing installation work"
+      alt: "Fencing installation Glasgow - professional fence contractors"
     },
     {
       src: "/gallery/imgi_4_gallery 7.jpg",
-      alt: "Professional decking installation project"
+      alt: "Professional decking installation Glasgow - composite decking specialists"
     },
     {
       src: "/gallery/imgi_5_gallery 6.jpg", 
-      alt: "Expert fencing installation work"
+      alt: "Expert fencing installation Scotland - professional fence contractors"
     },
     {
       src: "/gallery/imgi_6_gallery 4.jpg",
-      alt: "Custom decking and outdoor structure"
+      alt: "Custom decking and outdoor structure Glasgow - bespoke solutions"
     },
     {
       src: "/gallery/imgi_7_gallery 2.jpg",
-      alt: "Professional decking installation"
+      alt: "Professional decking installation Scotland - expert contractors"
     },
     {
       src: "/gallery/imgi_8_gallery 3.jpg",
-      alt: "High-quality decking and fencing work"
+      alt: "High-quality decking and fencing work Glasgow - professional installation"
     }
   ];
 
@@ -90,6 +91,7 @@ const Gallery = () => {
                   src={image.src}
                   alt={image.alt}
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
               </div>

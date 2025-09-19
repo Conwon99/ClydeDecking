@@ -3,32 +3,25 @@ import { Star, ArrowRight } from "lucide-react";
 const Reviews = () => {
   const reviews = [
     {
-      name: "Sarah Johnson",
+      name: "Jenna Kelly",
       location: "Glasgow",
       rating: 5,
-      text: "Clyde Decking Solutions were absolutely brilliant! They installed our composite decking and the quality is outstanding. Professional, reliable, and great value for money. Would definitely use again and recommend to anyone needing decking work.",
-      service: "Composite Decking"
+      text: "Delighted with the decking Ryan & team did for us. From first visit to quote, to completion, the communication was excellent and happy with the price. Would highly recommend!",
+      service: "Decking Installation"
     },
     {
-      name: "Mike Thompson",
+      name: "Holland Lisa",
       location: "Edinburgh",
       rating: 5,
-      text: "Excellent fencing installation! The team delivered on time and the workmanship is superb. Great communication throughout. Will definitely use again for future projects.",
+      text: "Had Ryan and the guys out last week to remove my old fence and put up a new one. The guys worked really hard and honestly can't fault them ☺️ Will definitely use them again and recommend them to others. I'm delighted with the finished result and has made a huge difference! Thanks so much! ⭐️⭐️⭐️⭐️⭐️",
       service: "Fencing Installation"
     },
     {
-      name: "Lisa Brown",
-      location: "Aberdeen",
+      name: "Dee DDocherty",
+      location: "Stirling",
       rating: 5,
-      text: "The team helped repair our damaged fence and did an excellent job. Very professional and the quality of work is outstanding. Very reasonable price and highly recommend!",
+      text: "Clyde Decking were absolutely amazing! Professional from start to finish, great quotes and genuinely went above and beyond to get our fence replaced providing advice and guidance as to what would be best for replacement. Highly recommend!",
       service: "Fence Repairs"
-    },
-    {
-      name: "David Wilson",
-      location: "Dundee",
-      rating: 5,
-      text: "Fantastic service! They built our custom decking and the work is exceptional. Very professional and delivered exactly what we wanted. Will definitely use again for future projects.",
-      service: "Decking Installation"
     }
   ];
 
@@ -73,11 +66,11 @@ const Reviews = () => {
         </div>
 
         {/* Review Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-6 mb-12 max-w-6xl mx-auto">
           {reviews.map((review, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow"
+              className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center"
             >
               <div className="flex justify-center mb-4">
                 {renderStars(review.rating)}
@@ -91,12 +84,12 @@ const Reviews = () => {
                 <h4 className="font-semibold text-gray-900 text-base">
                   {review.name}
                 </h4>
-                {/* Google logo placeholder */}
-                <div className="flex items-center gap-2">
-                  <div className="w-6 h-6 bg-gradient-to-r from-blue-500 to-red-500 rounded-full flex items-center justify-center">
-                    <span className="text-white text-xs font-bold">G</span>
+                {/* Facebook logo placeholder */}
+                <div className="flex items-center justify-center gap-2">
+                  <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center">
+                    <span className="text-white text-xs font-bold">f</span>
                   </div>
-                  <span className="text-xs text-gray-500">Google</span>
+                  <span className="text-xs text-gray-500">Facebook</span>
                 </div>
               </div>
             </div>

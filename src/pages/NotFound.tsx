@@ -16,7 +16,7 @@ const NotFound = () => {
     <>
       <Helmet>
         <title>404 - Page Not Found | Clyde Decking</title>
-        <meta name="description" content="The page you're looking for doesn't exist. Return to Clyde Decking homepage for professional decking and fencing services in Glasgow & Scotland's Central Belt." />
+        <meta name="description" content="The page you're looking for doesn't exist. Return to Clyde Decking homepage for professional decking and fencing services in Glasgow, Edinburgh, Stirling, Ayrshire & Scotland's Central Belt." />
         <meta name="robots" content="noindex, nofollow" />
         <link rel="canonical" href="https://clydedecking.netlify.app/404" />
       </Helmet>

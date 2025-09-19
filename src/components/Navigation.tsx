@@ -40,6 +40,7 @@ const Navigation = () => {
     scrollToSection("contact-form");
   };
 
+
   const navItems = [
     { label: "Home", onClick: () => scrollToSection("hero") },
     { label: "Services", onClick: () => scrollToSection("services") },
@@ -58,18 +59,14 @@ const Navigation = () => {
       <div className="container mx-auto max-w-7xl px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center">
             <div className="w-24 h-24">
               <LazyImage
                 src="/cds - Edited.png"
                 alt="Clyde Decking Solutions Ltd logo"
                 className="w-full h-full object-contain brightness-0 invert"
-                fallbackSrc="/cds - Edited.png"
               />
             </div>
-            <span className="font-display font-bold text-xl text-primary-foreground">
-              Clyde Decking Solutions Ltd
-            </span>
           </div>
 
           {/* Desktop Navigation */}

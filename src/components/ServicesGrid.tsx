@@ -63,12 +63,12 @@ const ServicesGrid = () => {
         <div className="text-left mb-16">
           <div className="flex items-center mb-6">
             <h2 className="font-display text-4xl lg:text-5xl font-bold text-[hsl(var(--asphalt-grey))] mr-6">
-              OUR SERVICES
+              PROFESSIONAL DECKING & FENCING SERVICES
             </h2>
             <div className="flex-1 h-px bg-[hsl(var(--asphalt-grey))]"></div>
           </div>
           <p className="text-xl text-[hsl(var(--asphalt-grey))] max-w-3xl">
-            Expert decking and fencing solutions with skilled contractors specializing in composite and wooden decking, fencing installation, repairs, and custom outdoor structures. Every project completed to the highest standards.
+            Expert decking contractors and fencing specialists serving Glasgow, Edinburgh, Stirling & Ayrshire. Professional composite decking, wooden decking, fencing installation, and custom outdoor structures. Trusted decking builders delivering premium outdoor living solutions across Scotland's Central Belt.
           </p>
         </div>
 

@@ -10,6 +10,7 @@ All colors MUST be HSL.
   :root {
     /* Core brand colors - Professional Blue Theme */
     --accent-yellow: 45 100% 60%;       /* #FFD700 - Professional Gold */
+    --grass-green: 120 60% 50%;         /* #22C55E - Professional Green */
     --primary-blue: 220 100% 50%;       /* #0066FF */
     --dark-blue: 220 100% 30%;          /* #003399 */
     --light-blue: 220 100% 70%;         /* #4D99FF */

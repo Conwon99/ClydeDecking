@@ -95,9 +95,8 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <LazyImage
           src="/gallery/Fence1.jpg"
-          alt="Professional decking and fencing background"
+          alt="Decking and fencing services Glasgow - professional outdoor contractors"
           className="w-full h-full object-cover"
-          fallbackSrc="/gallery/Fence1.jpg"
           loading="eager"
         />
         <div className="absolute inset-0 bg-black/50"></div>
@@ -110,11 +109,22 @@ const Hero = () => {
             <div className="space-y-6">
               
               <h1 className="font-display font-bold text-5xl lg:text-6xl text-white leading-tight drop-shadow-lg">
-                Professional decking & fencing across Scotland
+                <span className="relative inline-block">
+                  Professional
+                  <img 
+                    src="/undelrine svg1.svg" 
+                    alt="" 
+                    className="absolute top-1/2 left-0 w-full h-24 object-contain -z-10"
+                  />
+                </span> Decking & Fencing
               </h1>
+              <h2 className="font-display font-bold text-2xl lg:text-3xl text-white drop-shadow-lg flex items-center gap-3">
+                <MapPin className="w-6 h-6" />
+                Glasgow & Central Belt
+              </h2>
               
               <p className="text-xl text-white/90 font-medium max-w-lg leading-relaxed drop-shadow-md">
-                Trusted provider of composite and wooden decking and fencing solutions. Our skilled joiners are experts in all aspects of joinery work, ensuring every project is completed to the highest standards. Creating outdoor spaces that enhance beauty and provide long-lasting durability.
+                Expert composite decking and wooden decking specialists serving Glasgow, Edinburgh, Ayrshire and across Scotlands central belt. Professional fencing installation and custom outdoor structures. Trusted decking contractors delivering premium outdoor living solutions
               </p>
             </div>
 

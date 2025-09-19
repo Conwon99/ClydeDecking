@@ -43,32 +43,32 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3 text-white">
               <li>
-                <a href="#services" className="hover:text-blue-400 transition-colors">
+                <a href="#services" className="hover:text-gray-300 transition-colors">
                   • Composite Decking
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-blue-400 transition-colors">
+                <a href="#services" className="hover:text-gray-300 transition-colors">
                   • Wooden Decking
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-blue-400 transition-colors">
+                <a href="#services" className="hover:text-gray-300 transition-colors">
                   • Fencing Installation
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-blue-400 transition-colors">
+                <a href="#services" className="hover:text-gray-300 transition-colors">
                   • Fence Repairs
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-blue-400 transition-colors">
+                <a href="#services" className="hover:text-gray-300 transition-colors">
                   • Custom Outdoor Structures
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-blue-400 transition-colors">
+                <a href="#services" className="hover:text-gray-300 transition-colors">
                   • Custom Decking Solutions
                 </a>
               </li>
@@ -82,32 +82,37 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3 text-white">
               <li>
-                <a href="#about" className="hover:text-blue-400 transition-colors">
+                <a href="/glasgow" className="hover:text-gray-300 transition-colors">
+                  • Decking & Fencing in Glasgow
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="hover:text-gray-300 transition-colors">
                   • Decking in Scotland
                 </a>
               </li>
               <li>
-                <a href="#about" className="hover:text-blue-400 transition-colors">
+                <a href="#about" className="hover:text-gray-300 transition-colors">
                   • Fencing in Scotland
                 </a>
               </li>
               <li>
-                <a href="#about" className="hover:text-blue-400 transition-colors">
+                <a href="#about" className="hover:text-gray-300 transition-colors">
                   • Custom Structures Scotland
                 </a>
               </li>
               <li>
-                <a href="#about" className="hover:text-blue-400 transition-colors">
+                <a href="#about" className="hover:text-gray-300 transition-colors">
                   • Composite Decking Scotland
                 </a>
               </li>
               <li>
-                <a href="#about" className="hover:text-blue-400 transition-colors">
+                <a href="#about" className="hover:text-gray-300 transition-colors">
                   • Wooden Decking Scotland
                 </a>
               </li>
               <li>
-                <a href="#about" className="hover:text-blue-400 transition-colors">
+                <a href="#about" className="hover:text-gray-300 transition-colors">
                   • Outdoor Structures Scotland
                 </a>
               </li>
