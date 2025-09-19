@@ -22,7 +22,7 @@ const ServiceAreas = () => {
         <div className="text-left mb-16">
           <div className="flex items-center mb-4">
             <h2 className="font-display font-bold text-4xl lg:text-5xl text-foreground mr-6">
-              <span className="text-primary">SERVICE</span> AREAS
+              SERVICE AREAS
             </h2>
             <div className="flex-1 h-px bg-[hsl(var(--asphalt-grey))]"></div>
           </div>

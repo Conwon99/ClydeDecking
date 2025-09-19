@@ -70,7 +70,7 @@ const Gallery = () => {
         <div className="text-left mb-16">
           <div className="flex items-center mb-6">
             <h2 className="font-display text-4xl lg:text-5xl font-bold text-[hsl(var(--asphalt-grey))] mr-6">
-              OUR <span className="text-primary">WORK</span> GALLERY
+              OUR WORK GALLERY
             </h2>
             <div className="flex-1 h-px bg-[hsl(var(--asphalt-grey))]"></div>
           </div>

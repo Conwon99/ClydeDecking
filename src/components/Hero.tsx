@@ -108,7 +108,7 @@ const Hero = () => {
           <div className="text-left space-y-8">
             <div className="space-y-6">
               
-              <h1 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight drop-shadow-lg">
+              <h1 className="font-display font-bold text-4xl sm:text-5xl md:text-5xl lg:text-6xl text-white leading-tight drop-shadow-lg">
                 <span className="relative inline-block text-white">
                   Professional
                   <img 
@@ -136,16 +136,16 @@ const Hero = () => {
               <div className="flex flex-col sm:flex-row gap-4 w-full">
               <Button 
                 onClick={handleCallClick}
-                className="flex items-center justify-center gap-2 sm:gap-3 bg-white hover:bg-gray-100 text-primary rounded-full px-4 py-3 sm:px-8 sm:py-4 sm:text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="inline-flex items-center justify-center px-8 py-4 bg-white hover:bg-gray-100 text-primary rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
-                <Phone className="w-6 h-6 sm:w-7 sm:h-7" />
+                <Phone className="w-7 h-7" />
                 07495 295903
               </Button>
               <Button 
                 onClick={handleMessengerClick}
-                className="flex items-center justify-center gap-2 sm:gap-3 bg-green-600 hover:bg-green-700 text-white rounded-full px-4 py-3 sm:px-8 sm:py-4 sm:text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-green-600 hover:bg-green-700 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
-                <WhatsAppIcon className="w-6 h-6 sm:w-7 sm:h-7" />
+                <WhatsAppIcon className="w-7 h-7" />
                 WhatsApp
               </Button>
               </div>
