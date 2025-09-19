@@ -110,7 +110,7 @@ const ServicesGrid = () => {
                 <div className="mt-6">
                   <Button 
                     onClick={() => handleQuoteClick(service.title)}
-                    className="w-full bg-[hsl(var(--primary-blue))] hover:bg-[hsl(var(--dark-blue))] text-white font-semibold rounded-full group/button"
+                    className="w-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 text-white font-semibold rounded-full group/button"
                   >
                     Request a Quote
                     <ArrowRight className="w-4 h-4 ml-2 group-hover/button:translate-x-1 transition-transform" />

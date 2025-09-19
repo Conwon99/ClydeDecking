@@ -23,11 +23,11 @@ const TrustBar = () => {
   return (
     <section className="py-8 bg-green-600">
       <div className="container mx-auto max-w-4xl px-4">
-        <div className="flex justify-center items-center gap-4 md:gap-8 lg:gap-12">
+        <div className="flex flex-wrap justify-center items-center gap-3 md:gap-6 lg:gap-8">
           {trustItems.map((item, index) => (
-            <div key={index} className="flex items-center gap-3 text-white">
-              <item.icon className="w-6 h-6" />
-              <span className="font-semibold text-lg whitespace-nowrap">{item.text}</span>
+            <div key={index} className="flex items-center gap-2 text-white">
+              <item.icon className="w-5 h-5 flex-shrink-0" />
+              <span className="font-semibold text-sm md:text-base whitespace-nowrap">{item.text}</span>
             </div>
           ))}
         </div>

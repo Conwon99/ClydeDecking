@@ -90,7 +90,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative bg-background min-h-screen flex items-center py-20 px-4 pt-32 overflow-hidden">
+    <section id="hero" className="relative bg-background min-h-screen flex items-center py-20 px-4 pt-32 overflow-hidden w-full">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <LazyImage
@@ -108,13 +108,13 @@ const Hero = () => {
           <div className="text-left space-y-8">
             <div className="space-y-6">
               
-              <h1 className="font-display font-bold text-5xl lg:text-6xl text-white leading-tight drop-shadow-lg">
-                <span className="relative inline-block">
+              <h1 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight drop-shadow-lg">
+                <span className="relative inline-block text-white">
                   Professional
                   <img 
                     src="/undelrine svg1.svg" 
                     alt="" 
-                    className="absolute top-1/2 left-0 w-full h-24 object-contain -z-10"
+                    className="absolute top-1/2 left-0 w-full h-16 md:h-20 lg:h-24 object-contain -z-10 max-w-full"
                   />
                 </span> Decking & Fencing
               </h1>
@@ -131,21 +131,24 @@ const Hero = () => {
 
 
             {/* Quick Contact */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-6 border-t border-white/20">
+            <div className="pt-4 border-t border-white/20">
+              <p className="text-white text-lg font-semibold mb-3">Give us a call or a Whatsapp for a free quote</p>
+              <div className="flex flex-col sm:flex-row gap-4 w-full">
               <Button 
                 onClick={handleCallClick}
-                className="flex items-center gap-3 bg-white hover:bg-gray-100 text-primary rounded-xl px-8 py-5 justify-start text-lg font-bold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="flex items-center justify-center gap-2 sm:gap-3 bg-white hover:bg-gray-100 text-primary rounded-full px-4 py-3 sm:px-8 sm:py-4 sm:text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
-                <Phone className="w-6 h-6" />
-                Call: 07495 295903
+                <Phone className="w-6 h-6 sm:w-7 sm:h-7" />
+                07495 295903
               </Button>
               <Button 
                 onClick={handleMessengerClick}
-                className="flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white rounded-xl px-8 py-5 justify-start text-lg font-bold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="flex items-center justify-center gap-2 sm:gap-3 bg-green-600 hover:bg-green-700 text-white rounded-full px-4 py-3 sm:px-8 sm:py-4 sm:text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
-                <WhatsAppIcon className="w-8 h-8" />
+                <WhatsAppIcon className="w-6 h-6 sm:w-7 sm:h-7" />
                 WhatsApp
               </Button>
+              </div>
             </div>
           </div>
 
@@ -205,7 +208,7 @@ const Hero = () => {
                 />
               </div>
 
-           <Button type="submit" className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors duration-200">
+           <Button type="submit" className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-200">
              SEND
            </Button>
             </form>
